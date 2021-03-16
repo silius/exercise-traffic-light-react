@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 //create your first component
 
@@ -13,6 +13,7 @@ export function Home() {
 	if (color == "green") greenExtraClass = "choice";
 	return (
 		<div>
+			{" "}
 			<div id="trafficTop"></div>
 			<div id="container">
 				<div
